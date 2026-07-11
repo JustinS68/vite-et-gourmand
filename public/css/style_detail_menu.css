@@ -1,0 +1,55 @@
+/*Page detail menu */
+.detail-menu {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ea3434;
+}
+
+.detail-menu h1 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.detail-menu p {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.galerie {
+    width: 100%;
+    height: auto;
+    background: #ccc; /*remplace par les images */
+}
+
+.menu-info p {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-info .plats-menu { 
+    width: 50%;
+    min-height: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #44c9f0;
+    border-radius: 5px;}
+.menu-info  .conditions-et-allergenes {
+    width: 50%;
+    min-height: auto;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fffd37;
+    border-radius: 5px;
+    }

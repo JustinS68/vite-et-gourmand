@@ -1,0 +1,67 @@
+/*Commander */
+
+.title {
+    height: 100px;
+    width: 100%;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #4cc9f0;
+}
+
+
+/*page des commandes */
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    width: 100%;
+    margin: 0 0 20px 0;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #ea3434;
+}
+
+/* ligne des infos de commande */
+.container .filter-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: end;
+    background-color: #ffffff;
+    padding: 25px 20px;
+    border-radius: 8px;
+    margin: 0 0 25px 0;
+
+}
+
+/*bouton de confirmation de la commande */
+.bouton-commander {
+    background-color: #fffd37;
+    color: black;
+    padding: 18px 40px;
+    font-size: 1..5 rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.bouton-commander:hover {
+    background-color: #fc0;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+}
+
+header {
+    background-color: #52b788;
+    padding: 15px 30px;
+    color: black;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+
+footer {
+    background-color: #52b788;
+    padding: 20px 30px;
+    text-align: center;
+    color: black;
+}

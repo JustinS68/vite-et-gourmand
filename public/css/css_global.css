@@ -1,0 +1,447 @@
+
+/* ========== ESPACE UTILISATEUR ========== */
+.infos-personnelles,
+.mes-commandes {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #FAFAFA;
+    border: 2px solid #52B788;
+    border-radius: 10px;
+}
+
+.infos-personnelles h2,
+.mes-commandes h2 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #F4E9CD;
+    padding-bottom: 10px;
+}
+
+.commande {
+    background-color: #F4E9CD;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.commande p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.commande button {
+    padding: 8px 15px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.commande button:hover {
+    background-color: #e05555;
+}
+
+/* ========== ESPACE EMPLOYE / ADMIN ========== */
+.filtres {
+    background-color: #F4E9CD;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.filtres h2 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+}
+
+.filtres select,
+.filtres input {
+    padding: 8px;
+    border: 1px solid #52B788;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.filtres button {
+    padding: 8px 20px;
+    background-color: #52B788;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.commandes-employe,
+.commandes-admin,
+.commande-administrateur {
+    margin-bottom: 40px;
+}
+
+.commandes-employe h2,
+.commandes-admin h2,
+.avis-employe h2,
+.avis-admin h2,
+.menus-employe h2,
+.menus-admin h2,
+.gestion-employes h2 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #F4E9CD;
+    padding-bottom: 10px;
+}
+
+.avis {
+    background-color: #FAFAFA;
+    border: 1px solid #52B788;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.avis button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.avis button[name="valider_avis"]:first-of-type {
+    background-color: #52B788;
+    color: white;
+}
+
+.avis button[name="valider_avis"]:last-of-type {
+    background-color: #FF6B6B;
+    color: white;
+}
+
+.menu {
+    background-color: #FAFAFA;
+    border: 1px solid #52B788;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    padding: 8px 15px;
+    background-color: #52B788;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+.employe {
+    background-color: #FAFAFA;
+    border: 1px solid #52B788;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ========== MENTIONS LEGALES / CGV ========== */
+.mentions-legales,
+.cgv {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #FAFAFA;
+    border: 2px solid #52B788;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mentions-legales h1,
+.cgv h1 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.mentions-legales h2,
+.cgv h2 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.3em;
+    margin: 20px 0 10px 0;
+}
+
+.mentions-legales p,
+.cgv p {
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+/* ========== MESSAGES SUCCES / ERREUR ========== */
+.message-succes {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.message-erreur {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ========== MODIFIER MENU ========== */
+.modifier-menu-form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #FAFAFA;
+    border: 2px solid #52B788;
+    border-radius: 10px;
+}
+
+.modifier-menu-form h1 {
+    color: #52B788;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 20px;
+}
+
+.modifier-menu-form label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.modifier-menu-form input,
+.modifier-menu-form select,
+.modifier-menu-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #52B788;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.modifier-menu-form button {
+    padding: 10px 20px;
+    background-color: #FF6B6B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modifier-menu-form a {
+    padding: 10px 20px;
+    background-color: #52B788;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+/*Page de connexion*/
+.main {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1)
+}
+
+.main h1 {
+    width: 100%;
+    margin: 0 0 25px 0;
+    padding: 20px 0;
+    background-color: #ea3434;
+    color: black;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.main form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 20px 20px;
+}
+
+.main label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: black;
+}
+
+main input[type="text"],
+main input[type="email"],
+main input[type="password"] {
+    padding: 14px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    font-size: 1.05rem;
+    transition: all 0.3s;
+}
+
+main input:focus {
+    outline: none;
+    border-color: #ea3434;
+    box-shadow: 0 0 0 3px rgba(234,52, 52, 0.15);
+}
+
+main button[type="submit"] {
+    padding: 16px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+main button[type="submit"] {
+    background-color: #ea3434;
+    color: black;
+}
+
+main button[type="submit"]:hover {
+    background-color: #d12a2a;
+    transform: translateY(-2px);
+}
+
+main a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main p[style*="red"] {
+    background-color: #ffffff;
+    color:black;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px 0
+}
+
+/*page de payment*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px black;
+    overflow: hidden;
+}
+
+
+.h1 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #ea3434;
+}
+
+pre {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #ea3434;
+}
+
+pre{
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    border: 1px solid black;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.payment-methods div {
+    flex: 1;
+    min-width: 180px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.payment-methods div:hover {
+    border-color: #ea3434;
+    background-color: #ffffff;
+}
+
+.payment-methods strong {
+    color: #ea3434;
+    font-size: 1.1rem;
+}
