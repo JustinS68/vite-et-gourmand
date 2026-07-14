@@ -14,7 +14,7 @@ class Database
         
         if ($url) {
             $parts = parse_url($url);
-            $this->host = $parts['host'] ?? this->host;
+            $this->host = $parts['host'] ?? $this->host;
             $this->dbname = ltrim($parts['path'] ?? '', '/') ?: $this->dbname;
             $this->username = $parts['user'] ?? $this->username;
             $this->password = $parts['pass'] ?? $this->password;
