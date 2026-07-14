@@ -17,4 +17,5 @@ RUN chown -R www-data:www-data /var/www/html \
 
 EXPOSE 80
 
-COPY *.sql /docker-entrypoint-initdb.d/
+COPY vite et gourmand.sql /docker-entrypoint-initdb.d/
+COPY seeds.sql.sql /docker-entrypoint-initdb.d/
