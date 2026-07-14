@@ -10,6 +10,15 @@ class Database
 
     public function __construct()
     {
+        $url= getenv('MYSQL_URL') ?: getenv('DATABASE_URL');
+        
+        if ($url) {
+            $parts = parse_url($url);
+            $this->host = $parts['host'] ?? this->host;
+            $this->dbname = ltrim($parts['path'] ?? '', '/') ?: $this->dbname;
+            $this->username = $parts['user'] ?? $this->username;
+            $this->password = $parts['pass'] ?? $this->password;
+        }
         try {
             $this->pdo = new PDO(
                 "mysql:host={$this->host};dbname={$this->dbname};charset=utf8",
