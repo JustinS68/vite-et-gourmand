@@ -1,11 +1,8 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /vite-gourmand/
+RewriteEngine On
+RewriteBase /vite-gourmand/
 
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.*)$ index.php [QSA,L]
+RewriteRule^(*\.(css|js|png|jpg|jpeg|gif|ico))$ - [L]
 
-</IfModule>
-
-AddHandler application/x-httpd-php .php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA, L]
