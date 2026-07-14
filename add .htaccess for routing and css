@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /vite-gourmand/
+RewriteBase '/'
 
-RewriteRule^(*\.(css|js|png|jpg|jpeg|gif|ico))$ - [L]
+RewriteRule'^*\.(css|js|png|jpg|jpeg|gif|ico)$' - [L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
