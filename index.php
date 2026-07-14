@@ -1,3 +1,8 @@
+<?php 
+// Initialize database on first load
+require_once 'init-db.php';
+?>
+
 <?php include 'pages/includes/site_top.php'; ?>
 
 <?php require_once 'config/database.php'; ?>
@@ -72,3 +77,4 @@ $avisPage = new AvisPage($pdo);
 </main>
 
 <?php include 'pages/includes/site_bottom.php'; ?>
+
